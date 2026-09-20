@@ -1,7 +1,7 @@
 import os
 import requests
 
-# Pobieranie tokenu z bezpiecznych ustawień GitHuba (Secrets)
+# Pobieranie tokenu z Secrets na GitHubie
 SERVICE_TOKEN = os.environ.get("SERVICE_TOKEN")
 API_URL = "https://mtop-beijing.miui.com/gw/mtop.user.blUnlock/apply"
 
